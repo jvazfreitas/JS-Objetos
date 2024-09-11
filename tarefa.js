@@ -44,7 +44,7 @@ const meuVeiculo = new Veiculo('Fusca', 20); // Modelo 'Fusca' com 20 litros de 
 
 // Invocar métodos para simular ações do veículo
 console.log('Acelerando...');
-meuVeiculo.acelerar(30); // Aumenta a velocidade e consome combustível
+meuVeiculo.acelerar(40); // Aumenta a velocidade e consome combustível
 
 console.log('Freando...');
 meuVeiculo.frear(15); // Diminui a velocidade
@@ -53,4 +53,4 @@ console.log('Abastecendo...');
 meuVeiculo.abastecer(0); // Aumenta o nível de combustível
 
 console.log('Acelerando novamente...');
-meuVeiculo.acelerar(20); // Aumenta a velocidade novamente
+meuVeiculo.acelerar(50); // Aumenta a velocidade novamente
